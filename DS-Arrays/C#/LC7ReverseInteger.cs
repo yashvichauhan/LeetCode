@@ -1,6 +1,6 @@
 public class Solution {
     public int Reverse(int x) {
-                   int rev = 0;
+            int rev = 0;
             int digits = 0;
 
             while (x != 0)
