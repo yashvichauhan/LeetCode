@@ -12,13 +12,11 @@ public class Solution {
         if(dp[i, target] != -1) return dp[i, target];
 
         int pick = int.MaxValue;
-        if(coins[i] <= target){
-            if(coins[i] <= target) {
+        if(coins[i] <= target) {
             int subRes = recF(i, coins, target - coins[i], dp);  
                 if (subRes != int.MaxValue) {  
                     pick = subRes + 1;  
                 }
-            }
         }
         int notPick = recF(i-1, coins, target, dp);
  
