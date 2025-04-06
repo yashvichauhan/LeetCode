@@ -1,1 +1,5 @@
 /Helper
+*.jpg
+*.jpeg
+/SQL
+*.DS_Store
